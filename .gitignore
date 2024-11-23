@@ -1,0 +1,6 @@
+/Frontend/ember-site/node_modules
+/Backend/Aurora/Ember/.mvn
+/Backend/Aurora/Ember/target
+/Backend/Aurora/.mvn
+/Backend/Aurora/target
+.vscode
