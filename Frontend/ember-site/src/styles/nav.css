@@ -1,0 +1,35 @@
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+  
+  }
+  
+  .listObject {
+    list-style: none;
+    cursor: pointer;
+    padding: 3vw;
+    font-size: 3vh;
+    transition: transform 0.5s ease;
+  }
+  
+  .listObject:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    top: 0;
+    width:100%;
+    z-index:100;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .listObject {
+      font-size: large;
+    }
+   
+  }

@@ -29,7 +29,7 @@ export default function Login({ setUser }: LoginProps) {
           console.error(error);
           // tell the user the authentication was not valid
         })
-
+        setUser(new User("testuser", "testuseruid"))
     }
 
     const handleNewUserSignIn = () => {
@@ -47,7 +47,7 @@ export default function Login({ setUser }: LoginProps) {
               <input
                 type="text"
                 id="nameInput"
-                placeholder="Display Name"
+                placeholder="Home Sector"
                 value={name}
                 style={{ display: signUpState ? "flex" : "none" }}
                 onChange={(e) => {

@@ -27,8 +27,8 @@ export class AuthInvoker {
      */
     public async authenticate(unauthorizedCredentials: string): Promise<User | void> {
     
-        const credential = await fetch("mydomain/authentication/endpoint", {
-            method : 'GET',
+        const credential = await fetch("http://embermockbank.space", {
+            method : 'POST',
             headers: {
                 "Content-Type" : 'application/json',
             },
